@@ -1,0 +1,15 @@
+export const GAMES = [
+  { id: 'eclair', name: 'Quiz éclair', icon: 'bolt', desc: '10 mots de ton niveau, dans tous les sens.' },
+  { id: 'paires', name: 'Paires', icon: 'grid', desc: 'Relie chaque mot anglais à sa traduction, le plus vite possible.' },
+  { id: 'chrono', name: 'Vrai ou faux 60 s', icon: 'clock', desc: 'Bonne traduction ou piège ? Un maximum en une minute.' },
+  { id: 'phrase', name: 'Phrase en désordre', icon: 'shuffle', desc: 'Remets les mots dans le bon ordre.' },
+  { id: 'dictee', name: 'Dictée', icon: 'ear', desc: 'Écoute une phrase et écris-la.' },
+  { id: 'trous', name: 'Texte à trous', icon: 'pen', desc: 'Trouve le mot manquant dans une vraie phrase.' },
+  { id: 'traduction', name: 'Traduction', icon: 'swap', desc: 'Choisis la bonne traduction anglaise d’une phrase française.' },
+  { id: 'anagramme', name: 'Anagramme', icon: 'puzzle', desc: 'Retrouve le mot à partir de ses lettres mélangées.' },
+  { id: 'pendu', name: 'Pendu', icon: 'hang', desc: 'Devine le mot anglais lettre par lettre.' },
+  { id: 'epelle', name: 'Épelle-moi', icon: 'type', desc: 'Écoute un mot et écris-le sans faute.' },
+  { id: 'conjugaison', name: 'Conjugaison express', icon: 'clock', desc: 'Un verbe, un temps, une personne : conjugue !' },
+  { id: 'fauxamis', name: 'Faux amis', icon: 'alert', desc: 'Évite les pièges entre le français et l’anglais.' },
+  { id: 'paires-min', name: 'Oreille fine', icon: 'sound', desc: 'Ship ou sheep ? Distingue les sons proches.' },
+] as const

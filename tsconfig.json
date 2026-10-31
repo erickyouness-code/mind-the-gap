@@ -1,0 +1,1 @@
+{ "compilerOptions": { "target": "ES2020", "module": "ESNext", "moduleResolution": "bundler", "jsx": "react", "strict": true, "noEmit": true, "resolveJsonModule": true, "skipLibCheck": true, "lib": ["ES2021", "DOM", "DOM.Iterable"], "allowSyntheticDefaultImports": true, "esModuleInterop": true, "isolatedModules": true, "allowUmdGlobalAccess": true }, "include": ["src"] }
